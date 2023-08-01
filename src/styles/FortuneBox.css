@@ -1,0 +1,68 @@
+.fortuneBox {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto;
+    font-family: 'Fredoka','sans-serif';
+}
+p{
+    background-color: white;
+    margin-top: -30px;
+    padding: 10px;
+    width: 420px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+h1 {
+    color: white;
+    font-size: 3rem;
+    padding-top: 90px;
+}
+
+button{
+    width: 181px;
+    height: 44px;
+    top: 412px;
+    left: 97px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    background-color: aqua;  
+    margin: 0 100px;
+    cursor: pointer;
+    transition: .5s;
+   
+  }
+  
+  button:hover{
+    color: white;
+  }
+ 
+footer {
+    border: 2px  ;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-left: -45px;
+    font-size: 1.1rem;
+}
+
+@media (max-width:520px){
+    p{
+        width: 350px;
+        margin:auto;
+    }
+    button {
+        margin-top: 10px;
+    }
+    footer {
+        margin-left: 10px;
+    }
+}
+

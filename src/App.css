@@ -1,0 +1,20 @@
+.App {
+  min-height: 100vh;
+  width:auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.fortune1 {
+  background-image: url("../public/assets/Fortune1.jpg");
+}
+.fortune2 {
+  background-image: url("../public/assets/Fortune2.jpg");
+}
+.fortune3 {
+  background-image: url("../public/assets/Fortune3.jpg");
+}
+.fortune4 {
+  background-image: url("../public/assets/Fortune4.jpg");
+}
+
